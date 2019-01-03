@@ -1,6 +1,5 @@
 <button class="btn btn-success">New Recipe</button>
 <app-recipe-item
   *ngFor="let recipe of recipes"
-  [recipe]="recipe"
-  (recipeSelected)="onRecipeSelected(recipe)">
+  [recipe]="recipe">
 </app-recipe-item>
